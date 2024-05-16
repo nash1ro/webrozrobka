@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRbookshelf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="img/logov2.jpg">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img class="log" src="img/logo.png">
+            <div class="menu">
+                <a href="" class="button">home</a>
+                <a href="library.html" class="button">library</a>
+                <a href="profile.html" class="button">profile</a>
+            </div>
+            <a href="login.html" class="button2">LOG IN</a>
+            <a href="reg.html" class="button2">REGISTER</a>
+        </div>
+        <div class="main_part">
+            <img class="bacg" src="img/banner.png" alt="">
+        </div>
+        <div class="mainpart">
+            <h1>ПОШУК</h1>
+            <div class="container">
+                <div class="search-box">
+                    <form action="search.php" method="get">
+                        <input type="text" name="query" placeholder="search" required>
+                        <!-- Відсутня кнопка submit, форма буде відправлена при натисканні клавіші Enter -->
+                    </form>
+                </div>
+            </div>
+                <ul class="list1">
+                    <li>classic</li>
+                    <li>detectives</li>
+                    <li>scionce fiction</li>
+                    <li>romance</li>
+                    <li>horror</li>
+                    <li>psychological</li>
+                </ul>
+            </div>
+            <div class="books">
+                <div class="dorian">
+                    <img class="gray" src="img/the-picture-of-dorian-gray-393 1.png" alt="">
+                    <h3>DORIAN GRAY</h3>
+                    <p>Combining elements of the Gothic horror novel and decadent French fiction, the book centers on a striking premise: As Dorian Gray sinks into a life of crime and gross sensuality, his body retains perfect youth and vigor while his recently painted portrait grows day by day into a hideous record of evil, which he must</p>
+                </div>
+                <div class="dorian">
+                    <img class="gray" src="img/crime.png" alt="">
+                    <h3>CRIME AND PUNISHMENT</h3>
+                    <p>Crime and Punishment (1866) is considered one of the greatest masterpieces of Russian literature. It follows a young man called Rodion Raskolnikov – first as he plots to kill an elderly pawnbroker, then as he commits the deed, and finally as he confronts the many consequences of his actions.</p>
+                </div>
+                <div class="dorian">
+                    <img class="gray" src="img/sherlock.png" alt="">
+                    <h3>SHERLOCK HOLMES</h3>
+                    <p>The Hound of the Baskervilles is a novel written by Arthur Conan Doyle and published serially from 1901 to 1902. It is set in England, and it follows the story of the Baskerville family's superstition that there is a demonic hound that stalks and murders them.</p>
+                </div>
+            </div>
+            <a href=""><div class="button1">WATCH MORE</div></a>
+            <div class="line1"></div>
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src="img/first.png" alt="Slide 1"></div>
+                    <div class="slide"><img src="img/second.png" alt="Slide 2"></div>
+                    <div class="slide"><img src="img/third.png" alt="Slide 3"></div>
+                    <!-- Додайте інші слайди за потреби -->
+                </div>
+            </div>
+            <div class="mainpart2">
+                <h1>РЕКОМЕНДАЦІЇ</h1>
+                <div class="imgs">
+                    <img class="kafka" src="img/kafka.png" alt="">
+                    <img class="kafka" src="img/invisible.png" alt="">
+                    <img class="kafka" src="img/miror.png" alt="">
+                    <img class="kafka" src="img/neverwhere.png" alt="">
+                </div>
+                <img class="texxt" src="img/texts.png" alt="">
+                <a href=""><div class="button3">WATCH MORE</div></a>
+                <div class="phone">
+                    <div class="diveinfo">Dive into the world of thrilling adventures, fantastical realms, and unforgettable stories! Welcome to our website where you'll find a selection of the finest books to suit every taste. From gripping adventure novels to profound philosophical works, from captivating mysteries to lyrical poetry - we have a book for everyone! Explore new horizons and experience the magic of words with us. Immerse yourself in reading and discover unforgettable adventures between the pages of books!</div>
+                </div>
+            <div class="mainpart3">
+                <h1>КНИГА ТИЖНЯ</h1>
+                <img class="cure" src="img/cure of wellness.png" alt="">
+                <div class="infa">
+                    <p><b>A CURE FOR WELLNESS</b></p>
+                    <p>An ambitious young executive is sent to retrieve his company's CEO from an idyllic but mysterious "wellness center" at a remote location in the Swiss Alps but soon suspects that the spa's miraculous treatments are not what they seem.</p>
+                    <ul class="list2">
+                        <li><b>SCIENCE FICTION</b></li>
+                        <li><b>PSYCHOLOGICAL</b></li>
+                        <li><b>HORROR</b></li>
+                    </ul>
+                    <p class="rating">rating 9.2/10</p>
+                    <div class="container1">
+                        <div class="search-box1">
+                            <form action="search.php" method="get">
+                                <input type="text" name="query" placeholder="comment" required>
+                                <!-- Відсутня кнопка submit, форма буде відправлена при натисканні клавіші Enter -->
+                            </form>
+                        </div>
+                    </div>
+                    <a href=""><div class="button4">BUY</div></a>
+                </div>
+                <img class="readn" src="img/readnow.png" alt="">
+            </div>
+        <div class="mainpart4">
+            <h1>НОВИНКИ</h1>
+            <img class="cont" src="img/content.png" alt="">
+        </div>
+            <div class="footer">
+                <img src="img/footer.png" alt="">
+            </div>
+            </div>
+            <script>
+                let slides = document.querySelector('.slides');
+                let slideWidth = document.querySelector('.slide').offsetWidth;
+                let slideIndex = 0;
+        
+                function nextSlide() {
+                    if (slideIndex < slides.children.length - 1) {
+                        slideIndex++;
+                    } else {
+                        slideIndex = 0; // Перехід на перший слайд, якщо досягнуто останній
+                    }
+                    slides.style.transition = 'transform 0.5s ease';
+                    slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+                }
+        
+                function prevSlide() {
+                    if (slideIndex > 0) {
+                        slideIndex--;
+                    } else {
+                        slideIndex = slides.children.length - 1; // Перехід на останній слайд, якщо досягнуто перший
+                    }
+                    slides.style.transition = 'transform 0.5s ease';
+                    slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+                }
+        
+                setInterval(nextSlide, 3000); // автоматична зміна слайдів кожні 3 секунди
+            </script>
+        </div>
+    </div> 
+</body>
+</html>
