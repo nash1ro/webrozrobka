@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="img/logov2.jpg">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img class="log" src="img/logo.png">
+            <div class="menu">
+                <a href="index.html" class="button">back</a>
+                <a href="" class="button">library</a>
+                <a href="profile.html" class="button">profile</a>
+            </div>
+            <a href="login.html" class="button2">LOG OUT</a>
+            <a href="profile.html" class="button2">MY PROFILE</a>
+        </div>
+        <div class="main_part">
+            <img class="bacg" src="img/librar.png" alt="">
+        </div>
+        <div class="mainpart">
+            <h1>ПОШУК</h1>
+            <div class="container">
+                <div class="search-box">
+                    <form action="search.php" method="get">
+                        <input type="text" name="query" placeholder="search" required>
+                        <!-- Відсутня кнопка submit, форма буде відправлена при натисканні клавіші Enter -->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="books">
+            <div class="dorian">
+                <a href="about.html"><img class="gray" src="img/kafka.png" alt=""></a>
+                <h3>METAMORPHOSIS</h3>
+                <p>Gregor Samsa wakes up one morning to find himself transformed into a "monstrous vermin". He initially considers the transformation to be temporary and slowly ponders the consequences of his metamorphosis. Stuck on his back and unable to get up and leave the bed, Gregor reflects on his job as a traveling salesman and cloth merchant, which he characterizes as being full of "temporary and constantly changing human relationships</p>
+            </div>
+            <div class="dorian">
+                <img class="gray" src="img/cure of wellness.png" alt="">
+                <h3>CURE OF WELLNESS</h3>
+                <p>Lockhart, an executive at a financial services firm in New York City, is sent by the board of directors to retrieve CEO Roland Pembroke, who had abruptly decided to stay at a "wellness center" in the Swiss Alps. At the spa, Lockhart is met with resistance by the staff and Dr. Heinreich Volmer in attempting to speak with Pembroke.</p>
+            </div>
+            <div class="dorian">
+                <a href=""><img class="gray" src="img/neverwhere.png" alt=""></a>
+                <h3>NEVERWHERE</h3>
+                <p>For those that don't know, Neverwhere follows Richard Mayhew, a young businessman from Scotland, through his trials and tribulations within London Below, a semi-magic realm hidden within the gaps and forgotten spaces festooned across the capital.</p>
+            </div>
+        </div>
+        <div class="books">
+            <div class="dorian">
+                <img class="gray" src="img/the-picture-of-dorian-gray-393 1.png" alt="">
+                <h3>DORIAN GRAY</h3>
+                <p>Combining elements of the Gothic horror novel and decadent French fiction, the book centers on a striking premise: As Dorian Gray sinks into a life of crime and gross sensuality, his body retains perfect youth and vigor while his recently painted portrait grows day by day into a hideous record of evil, which he must</p>
+            </div>
+            <div class="dorian">
+                <img class="gray" src="img/crime.png" alt="">
+                <h3>CRIME AND PUNISHMENT</h3>
+                <p>Crime and Punishment (1866) is considered one of the greatest masterpieces of Russian literature. It follows a young man called Rodion Raskolnikov – first as he plots to kill an elderly pawnbroker, then as he commits the deed, and finally as he confronts the many consequences of his actions.</p>
+            </div>
+            <div class="dorian">
+                <img class="gray" src="img/sherlock.png" alt="">
+                <h3>SHERLOCK HOLMES</h3>
+                <p>The Hound of the Baskervilles is a novel written by Arthur Conan Doyle and published serially from 1901 to 1902. It is set in England, and it follows the story of the Baskerville family's superstition that there is a demonic hound that stalks and murders them.</p>
+            </div>
+        </div>
+        <a href=""><div class="button1">LOAD MORE</div></a>
+        <div class="footer2">
+            <img src="img/footer.png" alt="">
+        </div>
+    </div>
+</body>    
