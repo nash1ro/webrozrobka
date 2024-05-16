@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRbookshelf</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="img/logov2.jpg">
+    <style>
+        .main{
+            height: 840px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img class="log" src="img/logo.png">
+            <div class="menu">
+                <a href="" class="button">home</a>
+                <a href="library.html" class="button">library</a>
+                <a href="profile.html" class="button">profile</a>
+            </div>
+            <a href="" class="button2">LOG OUT</a>
+            <a href="profile.html" class="button2">MY PROFILE</a>
+        </div>
+        <div class="main_part">
+            <img class="bacg" src="img/aboutbg.png" alt="">
+        </div>
+        <h1>Про книгу</h1>
+        <img class="ghoul" src="img/kafka.png" alt="">
+        <div class="ghoulinfo">
+            <h3>THE METAMORPHOSIS</h3>
+            <p>The Metamorphosis by Franz Kafka is about a man named Gregor Samsa who becomes an insect. Until this incident, Gregor has worked hard to support his parents and sister. After he can no longer provide for their financial comfort, Gregor discovers that his family can indeed work.</p>
+        </div>
+        <div class="ghoulinfo2">
+            <p>fantasy</p>
+            <p class="psycho">psychological realism</p>
+        </div>
+        <a href=""><div class="buttonread">READ NOW</div></a>
+        <div class="footer">
+            <img src="img/footer.png" alt="">
+        </div>
+    </div>
+</body>
