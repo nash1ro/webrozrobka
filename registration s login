@@ -1,0 +1,147 @@
+//reg
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" type="image/png" href="img/logov2.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ADC7B1;
+            color: #191C23;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .register-box {
+            width: 700px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .register-box h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .register-box input[type="text"],
+        .register-box input[type="email"],
+        .register-box input[type="password"] {
+            width: 98%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .register-box input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #191C23;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .register-box input[type="submit"]:hover {
+            background-color: #ADC7B1;
+            color: #191C23;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h2>Реєстрація</h2>
+            <form action="registration.php" method="post">
+                <input type="text" name="username" placeholder="Ім'я користувача" required>
+                <input type="email" name="email" placeholder="Електронна пошта" required>
+                <input type="password" name="password" placeholder="Пароль" required>
+                <input type="submit" value="Зареєструватися">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+//login
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="img/logov2.jpg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ADC7B1;
+            color: #191C23;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box {
+            width: 700px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-box h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-box input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #191C23;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .login-box input[type="submit"]:hover {
+            background-color: #ADC7B1;
+            color: #191C23;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Вхід</h2>
+            <form action="login.php" method="post">
+                <input type="text" name="username" placeholder="Ім'я користувача" required>
+                <input type="password" name="password" placeholder="Пароль" required>
+                <input type="submit" value="Увійти">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
